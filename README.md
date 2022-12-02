@@ -53,7 +53,7 @@
 - **Organize your way of thinking**
 - **reduce the risk of introducing new bugs while devloping new features**
 - **keep confident when integrate new features into old ones as all we will do is run these test cases in miliseconds and if it passes we are in a good state**
-- **reduce the time needed to run manaul tests dramtically**
+- **reduce the time needed to run manual tests dramtically**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -78,7 +78,7 @@ You can download the page by clicking in the code green button and select Downlo
 
 To run the project just open your terminal, then change the directory to the location of this repo using this command `cd file_path`, and finally run this command `rspec spec` or `rspec spec --format doc` for getting more informatic results.
 
-Here is a screenshots of the tests done:-
+Here is a screenshots of the tests done through developing our methods inside `solver.rb`:-
 ![image](https://user-images.githubusercontent.com/22921170/205325472-2cfa3f97-64fa-4da2-983f-94f573a0eb97.png)
 ![image](https://user-images.githubusercontent.com/22921170/205326181-3d6cf75b-a819-496e-a2f5-a7f366b76479.png)
 ![image](https://user-images.githubusercontent.com/22921170/205350499-985e5601-d8b1-4d1f-a9d6-77be2523da04.png)
