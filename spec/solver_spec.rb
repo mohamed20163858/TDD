@@ -31,6 +31,10 @@ describe Solver do
     it "test the factorial of negative number" do 
         expect { @solver.factorial(-10) }.to raise_error("invalid input you cannot enter a negative integer!")
     end
+    it "test  reverse using base case '' " do 
+        result = @solver.reverse('')
+        expect(result).to eq ''
+      end
     it "test the reverse of word 'hello'" do 
       result = @solver.reverse('hello')
       expect(result).to eq 'olleh'
