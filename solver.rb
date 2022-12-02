@@ -1,8 +1,8 @@
 class Solver 
-  def factorial
+  def factorial(n)
   end
-  def reverse 
+  def reverse(str) 
   end 
-  def fizzbuzz 
+  def fizzbuzz(n)
   end
 end
