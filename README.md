@@ -38,7 +38,7 @@
 # 📖 [Test Driven Development] <a name="about-project"></a> 
 
 
-**[Test Driven Development]** is built using through following OOP styling paradigm I created classes for every given input entity like student , teacher, book, rental then i create assoction between them for example student and teacher has `many-to-many` relation ship with book so i created rental class to link these two classes together.
+**[Test Driven Development]** is built to practice Test  Driven Development using Rspec library. it is done by first write test cases before writing any classes or methods and for sure all our test cases will fail then we write our code and try to pass all these test cases.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -48,16 +48,13 @@
 
 <!-- Features -->
 
-### Key Features <a name="key-features"></a>
+### Test  Driven Development Features <a name="key-features"></a>
 
-- **List all books inside the library**
-- **List all people that has permission to enter the library**
-- **Register new person either a student or a teacher**
-- **Register new book**
-- **Create a rental to track each book rented by person x**
-- **List all rentals by person x just by giving his ID to the App**
-- **Exit to quit the application**
- 
+- **Organize your way of thinking**
+- **reduce the risk of introducing new bugs while devloping new features**
+- **keep confident when integrate new features into old ones as all we will do is run these test cases in miliseconds and if it passes we are in a good state**
+- **reduce the time needed to run manaul tests dramtically**
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
@@ -75,23 +72,23 @@ coming soon
 coming soon
 
 ### Setup
-You can download the page by clicking in the code green button and select Download ZIP or if you are a developer. You can get the https link or ssh link just copy it and use your favourite command line git interface and write this `git clone https://github.com/mohamed20163858/oop_school_library.git` if you use https or write `git clone git@github.com:mohamed20163858/oop_school_library.git` if you use ssh
+You can download the page by clicking in the code green button and select Download ZIP or if you are a developer. You can get the https link or ssh link just copy it and use your favourite command line git interface and write this `git clone https://github.com/mohamed20163858/TDD.git` if you use https or write `git clone git@github.com:mohamed20163858/TDD.git` if you use ssh
 
 ### Usage
 
-To run the project just open your terminal, then change the directory to the location of this repo using this command `cd file_path`, and finally run this command `ruby main.rb` or if you are using windows you can simply double click this file `main.rb`.
+To run the project just open your terminal, then change the directory to the location of this repo using this command `cd file_path`, and finally run this command `rspec spec` or `rspec spec --format doc` for getting more informatic results.
 
-Here is a screenshots of an example to teach you how to correctly use this App:-
-![image](https://user-images.githubusercontent.com/22921170/204107264-fefacb46-6a97-411f-87aa-a9de69c13d71.png)
-![image](https://user-images.githubusercontent.com/22921170/204107279-bce2ba7c-0767-4e3e-a0c6-098b0efa43f4.png)
-![image](https://user-images.githubusercontent.com/22921170/204107309-43526aad-a545-49a5-9302-4259bb61ed89.png)
+Here is a screenshots of the tests done:-
+![image](https://user-images.githubusercontent.com/22921170/205325472-2cfa3f97-64fa-4da2-983f-94f573a0eb97.png)
+![image](https://user-images.githubusercontent.com/22921170/205326181-3d6cf75b-a819-496e-a2f5-a7f366b76479.png)
+![image](https://user-images.githubusercontent.com/22921170/205350499-985e5601-d8b1-4d1f-a9d6-77be2523da04.png)
+![image](https://user-images.githubusercontent.com/22921170/205350926-69cc3212-63b1-4e6c-a554-26e1f11f51bb.png)
+![image](https://user-images.githubusercontent.com/22921170/205356257-8dd27845-4534-44a2-a6b2-e94583290add.png)
+![image](https://user-images.githubusercontent.com/22921170/205359992-672fad61-c689-4174-b36c-02b84c996e95.png)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-## Tests 
-the app is tested using Rspec library you can check the tests by openning your terminal, then change the directory to the location of this repo using this command `cd file_path`, then run this command `gem install rspec`, finally run this command `rspec spec` or `rspec spec --format doc` for documented test results you should see a screen like that 
-![image](https://user-images.githubusercontent.com/22921170/205204379-de95a414-ed5f-4f4b-80a9-c3b2063c1eac.png)
 
 <!-- AUTHORS -->
 
@@ -128,20 +125,6 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 If you like this project give it a thumb up :	👍 and share this projects with your friends 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ <a name="faq"></a>
-
-- **[Does this App has a GUI?]**
-
-  - [Actually till now No but i will work on that in the future currently it only work as a console log application]
-
-- **[What is the name of database application that this app use to store its data?]**
-
-  - [Well this app donot use any database at all all the inforamtion you enter will be saved as json format for every object created to make this program work and these objects are rentals, books, and people]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
