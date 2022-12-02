@@ -35,11 +35,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Test Driven Development] <a name="about-project"></a>
-
-> Build a school library ruby App to enable school libarians easy track the books inside the library, the registered students and teachers and the rental records beside tracking any rental happened by just providing the student or teacher ID.
-
- 
+# 📖 [Test Driven Development] <a name="about-project"></a> 
 
 
 **[Test Driven Development]** is built using through following OOP styling paradigm I created classes for every given input entity like student , teacher, book, rental then i create assoction between them for example student and teacher has `many-to-many` relation ship with book so i created rental class to link these two classes together.
@@ -53,8 +49,6 @@
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
-
-> The school library ruby App  has the following features:-
 
 - **List all books inside the library**
 - **List all people that has permission to enter the library**
